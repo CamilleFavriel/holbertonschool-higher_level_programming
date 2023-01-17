@@ -1,2 +1,2 @@
 #!/bin/bash
-print("C is fun!")
+python3 $PYFILE
