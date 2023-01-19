@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def islower(c):
-    if c > 97:
+    lowercase = 97
+    if c > lowercase:
         print(c.islower())
     else:
         print(c.islower())
