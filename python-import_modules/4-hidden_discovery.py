@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import hidden_4
 
