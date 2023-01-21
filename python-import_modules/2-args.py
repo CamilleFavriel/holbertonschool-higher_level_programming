@@ -13,3 +13,7 @@ else:
 for i, words in enumerate(argv, start=1):
     # Print the position and value of each argument
     print(f"{i}: {words}")
+
+
+if __name__ == "__main__":
+    main()
