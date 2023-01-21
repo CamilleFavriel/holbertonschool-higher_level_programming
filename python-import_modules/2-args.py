@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 argv = argv[1:]
 
 if len(argv) == 0:
