@@ -4,3 +4,7 @@ def main(numbers):
     for i in numbers:
         total += i
     return total
+
+
+if __name__ == "__main__":
+    main()
