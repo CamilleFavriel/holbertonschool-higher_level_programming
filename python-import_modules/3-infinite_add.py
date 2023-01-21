@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-def main(numbers):
+import sys
+
+def main():
+    args = sys.argv[1:]
     total = 0
-    for i in numbers:
-        total += i
-    return total
+    
+    for i in args:
+        total += int(i)
+    print(total)
 
 
 if __name__ == "__main__":
-    main(numbers)
+    main()
