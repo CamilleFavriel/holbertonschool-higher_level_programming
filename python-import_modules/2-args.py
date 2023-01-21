@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-argv = argv[1:]
+import sys
+
+argv = sys.argv[1:]
 
 if len(argv) == 0:
     print("0 arguments.")
