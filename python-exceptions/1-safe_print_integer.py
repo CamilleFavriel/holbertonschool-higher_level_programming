@@ -2,10 +2,7 @@
 def safe_print_integer(value):
     i = 0
     try:
-        for i in range(value):
-            print(value[i], end='')
-            i += 1
-    except IndexError:
-        pass
-    print()
-    return i
+        print("{:d}".format(int(value)))
+        return True
+    except ValueError:
+        return False
