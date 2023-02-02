@@ -2,12 +2,10 @@
 """
     Square is printing a square.
 """
-class Square:
-    """
-    A class representing a square.
-    """
 
+class Square:
     object = "{}"
+    
     """
     Attributes:
     object (str): The string representation of the square.
