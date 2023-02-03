@@ -8,5 +8,5 @@ class Square:
     """
     A class representing a square.
     """
-    object = "{}"
-    size = None
+    def __init__(self, size):
+        self.__size = size
