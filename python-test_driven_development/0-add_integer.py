@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import doctest
 def add_integer(a, b=98):
     """
     Adds two integers together
@@ -13,3 +14,6 @@ def add_integer(a, b=98):
     a = int(a)
     b = int(b)
     return a + b
+
+if __name__ == "__main__":
+    doctest.testmod()
