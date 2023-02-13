@@ -4,17 +4,11 @@
 
 
 def add_integer(a, b=98):
-    """Returns added integers or error messages"""
+    """Returns added integers."""
     if type(a) not in [int, float]:
-        try:
-            a = int(a)
-        except ValueError:
-            raise TypeError("a must be an integer or a float")
+        raise TypeError("a must be an integer or a float")
     if type(b) not in [int, float]:
-        try:
-            b = int(b)
-        except ValueError:
-            raise TypeError("b must be an integer or a float")
+        raise TypeError("b must be an integer or a float")
     a = int(a)
     b = int(b)
     return a + b
