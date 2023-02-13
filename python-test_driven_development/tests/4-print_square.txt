@@ -4,12 +4,11 @@ First import ``print_square`` from the ``print_square`` module:
     
 
 >>> print_square(5)
-#########
-#########
-#########
-#########
-#########
-
+#####
+#####
+#####
+#####
+#####
 >>> print_square(5.5)
 Traceback (most recent call last):
     ...
