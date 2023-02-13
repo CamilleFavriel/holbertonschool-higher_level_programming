@@ -1,0 +1,27 @@
+First import ``text_indentation`` from the ``text_indentation`` module:
+
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+
+>>> text_indentation("Hello, world! How are you doing today?")
+Hello, world!
+
+How are you doing today?
+
+>>> text_indentation("This is a sample text. It should be indented properly.")
+This is a sample text.
+
+It should be indented properly.
+
+>>> text_indentation("")
+
+>>> text_indentation("This text contains colons: like this one.")
+This text contains colons:
+
+like this one.
+
+>>> try:
+...     text_indentation(12345)
+... except TypeError as e:
+...     print(e)
+text must be a string
