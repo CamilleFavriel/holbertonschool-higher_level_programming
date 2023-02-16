@@ -1,7 +1,21 @@
-First import ``my_list`` from the ``my_list`` module:
+>>> say_my_name = __import__('print_sorted').print_sorted
 
-	>>> my_list = __import__('1-my_list').my_list
-
+# instantiate a MyList object with an unsorted list and sort it
 >>> my_list = MyList([3, 1, 2])
 >>> my_list.print_sorted()
 [1, 2, 3]
+
+# instantiate a MyList object with a sorted list and print it sorted
+>>> my_list = MyList([1, 2, 3])
+>>> my_list.print_sorted()
+[1, 2, 3]
+
+# instantiate a MyList object with an unsorted list containing negative numbers and print it sorted
+>>> my_list = MyList([3, -1, 2, -4, 0])
+>>> my_list.print_sorted()
+[-4, -1, 0, 2, 3]
+
+# instantiate a MyList object with an empty list and print it sorted
+>>> my_list = MyList([])
+>>> my_list.print_sorted()
+[]
