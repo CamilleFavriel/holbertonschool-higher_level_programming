@@ -39,3 +39,5 @@ First import ``MyList`` from the ``MyList`` module:
 >>> sorted_list = my_list.print_sorted()
 >>> sorted_list
 [-4, -1, 0, 2, 3]
+>>> my_list
+[3, -1, 2, -4, 0]
