@@ -1,4 +1,7 @@
->>> from my_list import MyList
+First import ``my_list`` from the ``my_list`` module:
+
+	>>> my_list = __import__('1-my_list').my_list
+
 >>> my_list = MyList([3, 1, 2])
 >>> my_list.print_sorted()
 [1, 2, 3]
