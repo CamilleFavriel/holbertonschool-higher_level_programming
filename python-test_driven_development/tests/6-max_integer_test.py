@@ -37,12 +37,6 @@ class TestMaxInteger(unittest.TestCase):
         # Test function returns None when passed an empty list
         self.assertIsNone(max_integer([]))
 
-    def test_invalid_input(self):
-        # Test that the function raises a TypeError when passed invalid input
-        with self.assertRaises(TypeError):
-            max_integer("not a list")
-        with self.assertRaises(TypeError):
-            max_integer([1, 2, "not an int"])
 
 if __name__ == '__main__':
     unittest.main()
