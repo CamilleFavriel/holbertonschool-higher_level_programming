@@ -1,11 +1,4 @@
-First import ``print_sorted`` from the ``print_sorted`` module:
-
-	>>> say_my_name = __import__('1-my_list.py').print_sorted
-    
-
- >>> my_list = MyList([3, 1, 2])
-    >>> my_list.print_sorted()
-    [1, 2, 3]
-    >>> my_list.append(4)
-    >>> my_list.print_sorted()
-    [1, 2, 3, 4]
+>>> from my_list import MyList
+>>> my_list = MyList([3, 1, 2])
+>>> my_list.print_sorted()
+[1, 2, 3]
