@@ -1,4 +1,4 @@
->>> say_my_name = __import__('print_sorted').print_sorted
+>>> print_sorted = __import__('1-my_list').print_sorted
 
 # instantiate a MyList object with an unsorted list and sort it
 >>> my_list = MyList([3, 1, 2])
