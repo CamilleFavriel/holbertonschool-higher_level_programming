@@ -1,4 +1,4 @@
->>> my_list = __import__('1-my_list').my_list
+>>> from my_list import MyList
 
 # instantiate a MyList object with an unsorted list and sort it
 >>> my_list = MyList([3, 1, 2])
