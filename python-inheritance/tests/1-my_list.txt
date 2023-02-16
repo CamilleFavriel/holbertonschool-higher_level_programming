@@ -22,3 +22,19 @@ First import ``MyList`` from the ``MyList`` module:
 >>> my_list = MyList([])
 >>> my_list.print_sorted()
 []
+
+# Test case: check __str__
+>>> my_list = MyList([1, 2, 3])
+>>> str(my_list)
+'[1, 2, 3]'
+
+# Test case: check append()
+>>> my_list = MyList([1, 2, 3])
+>>> my_list.append(4)
+>>> str(my_list)
+'[1, 2, 3, 4]'
+
+# Test case: check print_sorted() returns a new list
+>>> my_list = MyList([3, -1, 2, -4, 0])
+>>> sorted_list = my_list.print_sorted()
+[-4, -1, 0, 2, 3]

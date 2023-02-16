@@ -6,7 +6,7 @@ and methods of an object"""
 
 class MyList(list):
     """Copy of list"""
- 
+
     def print_sorted(self):
         """Printsin ascending sort"""
         sorted_list = self.copy()
