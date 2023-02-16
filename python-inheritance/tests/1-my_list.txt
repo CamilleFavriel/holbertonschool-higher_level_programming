@@ -38,3 +38,5 @@ First import ``MyList`` from the ``MyList`` module:
 >>> my_list = MyList([3, -1, 2, -4, 0])
 >>> sorted_list = my_list.print_sorted()
 [-4, -1, 0, 2, 3]
+>>> sorted_list is my_list
+False
