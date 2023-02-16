@@ -1,0 +1,20 @@
+First import ``print_sorted`` from the ``print_sorted`` module:
+
+	>>> say_my_name = __import__('1-my_list.py').print_sorted
+    
+
+>>> print_sorted("John", "Smith")
+'John Smith'
+
+>>> print_sorted("Bob")
+'John'
+
+>>> print_sorted(12, "White")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+
+>>> print_sorted("Bob", [])
+Traceback (most recent call last):
+    ...
+TypeError: last_name must be a string
