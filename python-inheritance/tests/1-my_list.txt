@@ -1,6 +1,6 @@
-First import ``MyList`` from the ``MyList`` module:
+First import ``BaseGeometry`` from the ``BaseGeometry`` module:
 
-	>>> MyList = __import__('1-my_list').MyList
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
     
 
 # instantiate a MyList object with an unsorted list and sort it
