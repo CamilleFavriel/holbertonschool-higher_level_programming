@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """Method that appends a string at the end of a text file"""
+import json
 
 
 def to_json_string(my_obj):
