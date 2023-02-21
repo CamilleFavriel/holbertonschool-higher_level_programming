@@ -70,3 +70,6 @@ class Rectangle(Base):
             for w in range(self.width):
                 print("#", end="")
             print()
+
+    def __str__(self):
+        return "[Rectangle] ({}) {}/{}".format(Base.id, self.__width, self.__height)
