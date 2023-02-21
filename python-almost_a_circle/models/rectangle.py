@@ -69,3 +69,4 @@ class Rectangle(Base):
         for h in range(self.height):
             for w in range(self.width):
                 print("#", end="")
+            print()
