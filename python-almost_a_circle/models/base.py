@@ -7,7 +7,7 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
-        if id is None:
+        if id is not None:
             self.id = id
         for objs in range(Base.__nb_objects):
             objs = id
